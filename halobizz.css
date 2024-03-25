@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background:url(./ant\ Halobiz.png);
+  width: 100%;
+  background-size: contain;
+  background-position: top;
+  height: 100vh;
+}
+
+main{
+  width: 1000px;
+  height: 500px;
+  display: flex;
+}
+
+.imageone{
+  background-color: #101886;
+  width: 500px;
+  height: 500px;
+  padding: 20px 20px;
+}
+
+.imageone img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagetwo{
+  background-color:rgb(241, 236, 236);
+  width: 500px;
+  height: 500px;
+  padding: 30px 70px;
+}
+
+.imagetwohalo h1{
+  color: #101886;
+  font-weight: bolder;
+}
+
+.imagetwohalo h2{
+  color: #5c61a1;
+  font-weight: lighter;
+}
+
+.imagetwo button{
+  width: 355px;
+  border-radius: 10px 10px;
+  background-color: #101886;
+  border: #101886;
+  height: 40px;
+  color: white;
+}
+
+.formforgetlogin{
+  text-align: center;
+}
+
+.formforgetlogin .form-check-input{
+  border: 1px solid;
+}
+
+.goggleimage{
+  height: 30px;
+  width: 30px;
+}
+
+.using{
+  color: #5c61a1;
+  font-weight: lighter;
+}
+
+.forgot{
+  color: #101886;
+  font-weight: bold;
+}
+
+.formforgetlogin hr{
+  border-color: red;
+}
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+  }
+  
+  body{
+    background: url(./images/bg-intro-desktop.png)  no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /*
+  display: flex;
+    justify-content: center;
+    align-items: center;*/
+  
+
+  
+
